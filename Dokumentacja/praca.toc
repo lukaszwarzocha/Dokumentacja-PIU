@@ -1,0 +1,25 @@
+\babel@toc {polish}{}\relax 
+\contentsline {chapter}{\numberline {1}Streszczenie}{6}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Architektura i cele aplikacji}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Zakres i cel projektu}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Analiza potrzeb użytkowników końcowych}{7}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Architektura i struktura logiczna projektu}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Definicja ról użytkowników i ich uprawnień w systemie}{8}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Funkcjonalności systemowe}{8}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Logika przepływu użytkownika}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Responsywność systemu}{8}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Specyfika interfejsu w wersji desktopowej}{8}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Adaptacja widoków dla urządzeń mobilnych}{8}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}Dokumentacja warstwy prezentacji}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Proces konfiguracji i zakupu produktu}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Specyfikacja widoków dla modułów produkcyjnych i logistycznych}{9}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Panel administracyjny i kontrola systemu}{9}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Obsługa sytuacji niestandardowych}{9}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Weryfikacja realizacji założeń funkcjonalnych w projekcie interfejsu}{9}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Aspekty techniczne i implementacja}{10}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Dobór technologii i narzędzi projektowych}{10}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Prezentacja zaimplementowanych widoków}{10}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Podsumowanie}{11}{chapter.6}%
+\contentsline {section}{\textbf {Bibliografia}}{12}{section*.1}%
+\contentsline {section}{\textbf {Spis rysunków}}{13}{chapter*.2}%
+\contentsline {section}{\textbf {Spis listingów}}{14}{chapter*.2}%
