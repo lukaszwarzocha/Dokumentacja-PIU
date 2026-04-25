@@ -1,12 +1,33 @@
-\chapter{Logika systemu i struktura interfejsu}
-\section{Definicja ról użytkowników i ich uprawnień w systemie}
+\chapter{Opis struktury projektu}
+Niniejszy rozdział szczegółowo omawia architekturę informacji oraz organizację funkcjonalną przygotowanego systemu. Opisano w nim zidentyfikowane grupy docelowe wraz z ich zakresem uprawnień, kluczowe moduły operacyjne, a także logikę interakcji na ścieżce użytkownika-interfejs. Ważnym aspektem poddanym analizie jest również wdrożenie wytycznych dotyczących responsywności (RWD), gwarantujących poprawność działania aplikacji na dowolnych urządzeniach.
+
+\section{Definicja ról użytkowników}
+
+W ramach ekosystemu przygotowanej aplikacji pizzerii zidentyfikowano i obsłużono na poziomie interfejsu (oraz dostępu do widoków) trzy główne role użytkowników:
+\begin{itemize}
+    \item \textbf{Gość (Użytkownik niezalogowany):} Posiada podstawowy dostęp do publicznej części serwisu (tzw. storefront). Z tego poziomu może przeglądać pełną ofertę posiłków, korzystać z interaktywnego kreatora pizzy, a także swobodnie dodawać poszczególne pozycje do koszyka w drodze do sfinalizowania zamówienia lub decyzji o rejestracji.
+    \item \textbf{Zarejestrowany Klient:} Użytkownik poprawnie uwierzytelniony, któremu udostępniono poszerzone zaplecze e-commerce. Uzyskuje on bezpieczny dostęp do modułu ,,Moje konto'', w którym może edytować dane profilowe (np. adresy dostaw), weryfikować historię zakupów oraz dokonywać zgłoszeń reklamacji lub zwrotów.
+    \item \textbf{Administrator (Pracownik lokalu):} Rola systemowa o pełnych uprawnieniach względem obsługi restauracji internetowej. Pracownik loguje się do dedykowanej strefy \textit{back-office}, za pomocą której monitoruje ogólną kondycję platformy, a także zarządza jej najważniejszymi zasobami -- m.in. zyskuje dostęp do tabel pozwalających na edycję nowości i aktualizację dostępnego asortymentu w karcie dań.
+\end{itemize}
 
 \section{Funkcjonalności systemowe}
 
+Zaprojektowany interfejs graficzny został podzielony na kilka nadrzędnych modułów funkcjonalnych, bezpośrednio odzwierciedlających przepływy procesów biznesowych pizzerii:
+\begin{enumerate}
+    \item \textbf{Moduł Katalogu Produktów:} Zestaw widoków obejmujący estetyczne i przejrzyste kafelki prezentujące pozycje w menu, filtry oraz opisy składników. Czołową innowacją tego modułu jest oddzielna strona dedykowana kreatorowi, dająca znaczną niezależność konsumentowi przy modyfikacji produktu za pomocą formularzy i interaktywnych elementów.
+    \item \textbf{Moduł Obsługi Konta i Koszyka:} Obszar nadzorujący logikę autoryzacyjną formularzy rejestracji i logowania. Spaja on węzeł zakupowy (widok zarządzania elementami przed kasą biletową) z zakładkami prywatnymi profilu.
+    \item \textbf{Dedykowany Moduł Administracyjny (Dashboard):} Centrum dowodzenia pizzerią, oddzielone chronologicznie od struktury publicznej. Skonstruowane jest w postaci intuicyjnego widoku - z listą szybkich akcji statystycznych oraz szczegółowym widokiem edycji pozycji magazynowej, który zapewnia pełną kontrolę personelu nad ofertą lokalu.
+\end{enumerate}
+
+
 \section{Logika przepływu użytkownika}
 
-\section{Responsywność systemu}
+Architektura i model nawigacji (User Flow) zostały zaprojektowane przede wszystkim z myślą o efektywności i zminimalizowaniu liczby kroków (kliknięć) koniecznych do sfinalizowania operacji kupna. Standardowa ścieżka krytyczna, tzw. ,,Happy Path'', rozpoczyna się od powitania z estetyczną sekcją promocyjną lub skrótem menu od razu po wejściu na stronę główną. Zaintrygowany konsument zostaje płynnie skierowany albo do głównej karty (menu), albo do kreatora. Następnie interfejs wyraźnymi wezwaniami do akcji (tzw. Call To Action) nakierowuje użytkownika do przeglądu koszyka. Na tym zintegrowanym etapie aplikacja w naturalny sposób kieruje nieautoryzowanych klientów przez barierę rejestracyjną/logowania celem zaciągnięcia ewentualnego adresu dostawy przed skierowaniem go na wyimaginowany ekran płatności.
 
-\subsection{Specyfika interfejsu w wersji desktopowej}
+\section{Specyfika interfejsu w wersji desktopowej}
 
-\subsection{Adaptacja widoków dla urządzeń mobilnych}
+Wersja przeznaczona na komputery i laptopy pozwala na bardzo dobre zagospodarowanie dużej, poziomej przestrzeni ekranu. Od strony klienta, menu nawigacyjne jest poziome, zawsze widoczne u góry, a same pizze prezentowane są w czytelnej siatce po kilkanaście pozycji bazujących na rzędach. Z kolei w panelu administracyjnym wykorzystano wygodny podział interfejsu na dwie części: po lewej stronie znajduje się stałe menu boczne z odpowiednimi skrótami, a po prawej szeroka przestrzeń robocza. Dzięki takiemu układowi pracownik ma stały podgląd na szerokie tabele z danymi, co znacznie ułatwia szybkie aktualizowanie karty dań bez konieczności niepotrzebnego przewijania widoku.
+
+\section{Adaptacja widoku dla urządzeń mobilnych}
+
+Na znacznie węższych ekranach smartfonów wygląd aplikacji zauważalnie się zmienia, aby ułatwić intuicyjną nawigację dotykową. Po rozwinięciu szerokiej siatki elementy układają się jedna pod drugą, budując czytelną listę przewijaną z góry do dołu. Rozbudowane górne menu z odnośnikami chowa się pod standardową ikonką ,,hamburgera'', minimalizując natłok informacji na pojedynczym ekranie. W przypadku skomplikowanych widoków, np. w ramach ról administracyjnych, wszystkie długie poziome tabele zostały odpowiednio przeprojektowane tak, aby prezentowały dane w formie układu wizytówek - eliminując tym samym problem niewygodnego przewijania na boki. W aplikacji zwiększono również rozmiar przycisków, aby dało się w nie łatwiej trafić po prostu palcem.

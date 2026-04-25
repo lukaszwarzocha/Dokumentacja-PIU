@@ -1,5 +1,63 @@
-\chapter{Architektura i cele aplikacji}
-\section{Zakres i cel projektu}
+\chapter{Opis założeń projektu}
+\section{Cel projektu}
 
-\section{Analiza potrzeb użytkowników końcowych}
+Realizacja tego projektu obejmuje następujące cele szczegółowe:
+\begin{itemize}
+    \item Zapewnienie klientom płynnego i szybkiego procesu odnalezienia interesującej ich pozycji z menu, jej opcjonalnej konfiguracji autorskiej w interaktywnym kreatorze oraz bezproblemowej finalizacji zakupu poprzez moduł koszyka.
+    \item Wykreowanie bezpiecznej i czytelnej strefy osobistej (portal ,,Moje konto''), ułatwiającej klientom podgląd historii zrealizowanych zamówień, weryfikację statusu zwrotów oraz zarządzanie kluczowymi danymi profilowymi.
+    \item Zbudowanie intuicyjnego pulpitu udostępniającego panel administracyjny (back-office) dla pracowników pizzerii, co znacząco upraszcza zarządzanie asortymentem oraz modyfikowanie karty dań widocznej na froncie sklepu.
+\end{itemize}
+
+\section{Zakres funkcjonalności}
+System „Wito’s” został zaprojektowany jako kompleksowe rozwiązanie wspierające pełny cykl obsługi zamówienia. Poniżej przedstawiono szczegółowy wykaz funkcjonalności z podziałem na moduły i role użytkowników:
+\vspace{10pt}
+
+\textbf{Zarządzanie produktami i koszykiem:}
+\begin{itemize}
+\item Przeglądanie interaktywnego menu.
+\item Dynamiczne dodawanie i usuwanie produktów z koszyka zamówienia.
+\item Przegląd podsumowania zamówienia wraz z naliczonymi kosztami dostawy.
+\end{itemize}
+    
+\textbf{Zaawansowany kreator pizzy:}
+\begin{itemize}
+\item Personalizacja składników według indywidualnych preferencji użytkownika.
+\item Funkcja podziału pizzy na dwie różne połowy z niezależnym doborem
+dodatków.
+\item Możliwość zwiększenia ilości (gramatury) wybranych składników.
+\item System walidacji: nakładanie limitów na liczbę składników w celu zachowania standardów technologicznych.
+\end{itemize}
+    
+\textbf{Finalizacja i monitoring:}
+\begin{itemize}
+\item Obsługa kodów rabatowych.
+\item Śledzenie statusu realizacji zamówienia w czasie rzeczywistym.
+\end{itemize}
+
+\textbf{Profil użytkownika:}
+\begin{itemize}
+\item Dostęp do historii zamówień.
+\item Zarządzanie danymi adresowymi.
+\item Zintegrowany moduł reklamacji i zwrotów.
+\end{itemize}
+
+\textbf{Zarządzanie Produkcją (Widok Kuchni):}
+\begin{itemize}
+\item Podgląd kolejki aktywnych zamówień wraz ze szczegółową specyfikacją składników.
+\item Zarządzanie procesem przygotowania poprzez zmianę statusów (np. „w przygotowaniu”, „gotowe”).
+\end{itemize}
+    
+\textbf{Zarządzanie Logistyką (Widok Dostawcy):}
+\begin{itemize}
+\item Dostęp do listy zamówień gotowych do odbioru wraz z danymi klienta.
+\item Aktualizacja statusów doręczenia przesyłki.
+\end{itemize}
+    
+\textbf{Zarządzanie Systemem (Panel Administratora):}
+\begin{itemize}
+\item Pełny nadzór nad obiegiem zamówień i rozpatrywanie wniosków o zwrot środków.
+\item Zarządzanie bazą użytkowników oraz uprawnieniami personelu.
+\item Konfiguracja asortymentu: edycja menu oraz aktualizacja cen.
+\end{itemize}
+
 
