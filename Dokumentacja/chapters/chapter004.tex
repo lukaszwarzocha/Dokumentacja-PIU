@@ -1,17 +1,503 @@
-\chapter{Prezentacja warsty użytkowej projektu}
-\section{Proces konfiguracji i zakupu produktu}
+\chapter{Prezentacja warstwy użytkowej projektu}
+Niniejszy rozdział poświęcono wizualnej oraz funkcjonalnej prezentacji kluczowych widoków aplikacji „Wito’s”. Omówiono w nim najważniejsze ścieżki i procesy biznesowe z perspektywy zarówno użytkownika końcowego, jak i personelu obsługującego system - począwszy od przeglądania asortymentu i konfiguracji własnej pizzy, aż po kompleksowe zarządzanie zamówieniami w panelu administracyjnym. W celu wykazania elastyczności i nowoczesności zaprojektowanego rozwiązania, prezentacja ilustruje również architekturę responsywną (RWD), ukazując precyzyjną adaptację interfejsu graficznego do różnych rozdzielczości ekranowych, ze szczególnym uwzględnieniem wersji desktopowej oraz mobilnej.
 
-\section{Specyfikacja widoków dla modułów produkcyjnych i logistycznych}
+\section{Moduł główny, menu produktowe oraz koszyk}
 
-\section{Panel administracyjny i kontrola systemu}
+\textbf{Strona główna oraz Menu} 
+\vspace{5pt}
 
-\section{Obsługa sytuacji niestandardowych}
+Strona główna posiada moduł „Gorących okazji” (nowości i promocje), natomiast zakładka Menu prezentuje asortyment w formie przejrzystej siatki produktów. Użytkownik widzi tu opisy składników, ceny i tagi promocyjne, z możliwością natychmiastowego dodania wybranej pizzy do koszyka.
 
-\section{Weryfikacja realizacji założeń funkcjonalnych w projekcie interfejsu}
+\vspace{15pt}
 
-% \newpage
-% \begin{figure}[H]
-% \centering
-% \includegraphics[width=0.95\linewidth]{figures/fig_001.png}\
-% \caption{Widok ...\label{fig1}}
-% \end{figure}
+Po wejściu do aplikacji, użytkownika wita przejrzysta i estetyczna Strona główna, która pełni funkcję reprezentacyjną i od razu zachęca do zapoznania się z ofertą restauracji. Na samej górze ekranu znajduje się wygodny, przyklejony pasek nawigacyjny, dający natychmiastowy dostęp do kluczowych modułów systemu: pełnego Menu, Koszyka oraz logowania do strefy „Moje konto”. Centralnym elementem tego widoku jest duży baner promocyjny, tuż pod którym wyeksponowano dedykowaną sekcję „Gorące okazje”. To właśnie w niej prezentowane są wyróżnione pozycje - najnowsze smaki wprowadzane do karty oraz wybrane pizze objęte aktualnymi obniżkami cen. Na samym dole strony głównej klient może również szybko sprawdzić godziny otwarcia lokalu dla poszczególnych dni tygodnia oraz podstawowe dane kontaktowe.
+
+\vspace{5pt}
+
+Kiedy użytkownik zdecyduje się przejść do zakładki Menu, rozpoczyna właściwy proces przeglądania oferty. Cały asortyment pizzerii został tu zaprezentowany w formie spójnej i czytelnej siatki produktów, co znacznie ułatwia szybkie skanowanie dostępnych opcji. Dla każdej z pizz przygotowano osobny kafel, na którym klient widzi apetyczne zdjęcie, pełną listę składników (ułatwiającą wybór pod kątem preferencji smakowych) oraz cenę. Dodatkowo, wybrane pozycje posiadają graficzne etykiety np. „Promocja” czy „Nowość”, które mocniej przyciągają wzrok.
+
+\vspace{5pt}
+
+Najważniejszą funkcjonalnością tego widoku z perspektywy sprzedażowej jest możliwość natychmiastowego dodania wybranej, gotowej pizzy do koszyka za pomocą jednego kliknięcia w przycisk pod opisem (przycisk wyświetla się po najechaniu na cenę pizzy). Ponadto, to właśnie na górze tego widoku wyeksponowano wyraźny punkt wejścia do „Kreatora pizzy”, na wypadek gdyby klient zdecydował się na zbudowanie własnej kompozycji od podstaw.
+\newpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[b]{0.67\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Main/fig_001.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.25\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Main/fig_002.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok strony głównej}
+\end{figure}
+
+\newpage
+
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[c]{0.67\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Main/fig_003.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[c]{0.15\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Main/fig_004.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok menu}
+\end{figure}
+\newpage
+
+
+\textbf{Koszyk oraz finalizacja zamówienia}
+\vspace{10pt}
+
+Gdy użytkownik skompletuje swoje zamówienie i zdecyduje się na jego finalizację, przechodzi do widoku Koszyka. Ekran ten został zaprojektowany z myślą o maksymalnej przejrzystości, aby dać klientowi pełną kontrolę i zminimalizować ryzyko pomyłki przed dokonaniem płatności.
+\vspace{5pt}
+
+W centralnej części interfejsu znajduje się szczegółowe zestawienie wszystkich dodanych produktów. Dla każdej pozycji klient widzi miniaturę zdjęcia, nazwę pizzy, cenę jednostkową, wybraną ilość sztuk oraz obliczoną kwotę cząstkową. Z tego poziomu ma on możliwość płynnego zarządzania swoim zamówieniem - za pomocą intuicyjnych przycisków (plus i minus) może w każdej chwili zwiększyć lub zmniejszyć liczbę sztuk danej pizzy, a w razie zmiany decyzji, całkowicie usunąć ją z listy zakupów. Bezpośrednio pod listą produktów zaimplementowano dedykowane pole tekstowe, w którym klient może wpisać i zatwierdzić posiadany kod rabatowy.
+\vspace{5pt}
+
+W sekcji „Podsumowanie” użytkownik musi w pierwszej kolejności określić preferowany typ dostawy, wybierając pomiędzy standardowym dowozem a odbiorem osobistym w lokalu. Jest to interaktywny element, po kliknięciu którego system natychmiast przelicza i aktualizuje koszty logistyczne. Pod spodem prezentowane jest pełne i transparentne rozbicie finansowe transakcji: suma wartości produktów, odliczona wartość zniżek, wyliczony koszt dostawy oraz ostateczna, całkowita kwota do zapłaty. Na samym końcu procesu, tuż pod wyborem dogodnej metody płatności, znajduje się wyraźnie wyróżniony przycisk „Przejdź do płatności”. Jego kliknięcie ostatecznie zamyka proces kompletowania zamówienia w sklepie i przenosi użytkownika do bramki płatniczej.
+
+\newpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[d]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Main/fig_005.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[d]{0.25\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Main/fig_006.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok koszyka}
+\end{figure}
+\newpage
+
+
+\section{Konfigurator produktu - Kreator Pizzy}
+
+Kreator pizzy stanowi jeden z kluczowych wyróżników systemu. Jest to dedykowany moduł pozwalający klientom na pełną personalizację zamówienia i zbudowanie własnej kompozycji od podstaw, przy jednoczesnym zachowaniu narzuconych standardów technologicznych restauracji. Cały proces budowania produktu został podzielony na cztery intuicyjne etapy, przez które użytkownik przechodzi sekwencyjnie.
+
+\vspace{10pt}
+\textbf{Proces konfiguracji kompozycji}
+\vspace{5pt}
+
+W pierwszym kroku użytkownik wybiera docelowy rozmiar pizzy. Zaimplementowano tu inteligentny system walidacji – wybrany wariant od razu określa cenę bazową oraz sztywno ustala limit miejsc (slotów) na dodatkowe składniki (np. 6 slotów dla małej pizzy, 9 dla średniej). Gwarantuje to, że skomponowana pizza nie zostanie przeładowana i będzie możliwa do prawidłowego wypieczenia na kuchni. W drugim etapie klient wybiera bazę swojego dania, decydując o rodzaju sosu oraz sera. Dostępne są tu zarówno opcje domyślne, wliczone w cenę, jak i warianty premium wymagające dopłaty.
+
+\vspace{5pt}
+
+Trzeci krok to najszerszy etap konfiguracji, dający dostęp do bogatej biblioteki dodatków podzielonych na czytelne kategorie (mięsa, warzywa, inne). Użytkownik ma tu pełną swobodę decyzyjną – może dodawać pojedyncze składniki, zwiększać ich gramaturę (wybierając porcje x1, x2, x3 za pomocą przycisków plus/minus), a także skorzystać ze specjalnego przełącznika włączającego wariant „pół na pół”. Przez cały czas trwania tego procesu, w obrębie interfejsu widoczny jest pasek podsumowania, który na bieżąco aktualizuje całkowitą kwotę, dając klientowi pełną kontrolę nad ostatecznym kosztem zamówienia. Ostatni, czwarty krok to wizualne podsumowanie przygotowanej kompozycji z dokładnym rozbiciem kosztów użytych składników, skąd klient jednym kliknięciem przenosi produkt do koszyka.
+
+\vspace{10pt}
+\clearpage
+\newpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[e]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Kreator Pizzy/fig_007.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[e]{0.26\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Kreator Pizzy/fig_008.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok kreatora pizzy - romiar}
+\end{figure}
+\newpage
+\clearpage
+\newpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[f]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Kreator Pizzy/fig_009.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[f]{0.25\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Kreator Pizzy/fig_010.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok kreatora pizzy - sos i ser}
+\end{figure}
+\newpage
+\clearpage
+\newpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[a]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Kreator Pizzy/fig_011.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[a]{0.25\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Kreator Pizzy/fig_012.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok kreatora pizzy - dodatki}
+\end{figure}
+\newpage
+\clearpage
+\newpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[a]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Kreator Pizzy/fig_013.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[a]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Kreator Pizzy/fig_014.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok kreatora pizzy - podsumowanie}
+\end{figure}
+\newpage
+
+\section{Panel klienta}
+
+Strefa osobista użytkownika (portal „Moje konto”) została zaprojektowana z myślą o zapewnieniu klientom pełnej kontroli nad ich danymi, historią transakcji oraz procesami posprzedażowymi. Moduł ten stanowi centralne miejsce zarządzania relacją klienta z restauracją.
+
+\vspace{10pt}
+\textbf{Rejestracja i logowanie}
+\vspace{5pt}
+
+Dostęp do panelu klienta chroniony jest bezpiecznym procesem uwierzytelniania. Dla powracających użytkowników przygotowano prosty formularz logowania z opcją zapamiętania danych sesji. Z kolei dla nowych klientów proces rejestracji został rozbity na przejrzysty, trójetapowy kreator (tzw. wizard). Taki podział znacznie zmniejsza próg wejścia – użytkownik podaje w osobnych krokach dane osobowe oraz adresowe, a na samym końcu ma możliwość zweryfikowania wszystkich informacji przed finalnym założeniem konta. Dzięki temu system od razu zyskuje domyślny adres dostawy gotowy do wykorzystania przy przyszłych zamówieniach.
+
+\vspace{10pt}
+\textbf{Zarządzanie profilem i historia zamówień}
+\vspace{5pt}
+
+Po pomyślnym zalogowaniu użytkownik otrzymuje dostęp do bocznego panelu nawigacyjnego, z poziomu którego może swobodnie przełączać się pomiędzy modułami swojego konta. W zakładce z danymi osobowymi ma możliwość weryfikacji i szybkiej aktualizacji informacji kontaktowych oraz domyślnego adresu zamieszkania. 
+
+Kluczową podstroną w tym panelu jest „Historia zamówień”, gdzie klient może przeglądać listę wszystkich dotychczasowych transakcji w formie chronologicznej tabeli. Po rozwinięciu konkretnego rekordu użytkownik zyskuje pełen wgląd w szczegóły wybranego zamówienia: bieżący status realizacji (np. „Opłacone”, „W przygotowaniu”, „Dostarczone”), wybraną metodę dostawy i płatności oraz listę zakupionych produktów wraz z dokładnym rozbiciem kosztów.
+
+\vspace{10pt}
+\textbf{Moduł zwrotów i reklamacji}
+\vspace{5pt}
+
+W ramach obsługi posprzedażowej panel klienta posiada zintegrowany system zgłaszania zwrotów. Aby maksymalnie uprościć ten proces, system automatycznie filtruje i udostępnia do wyboru tylko te zamówienia, które ostatecznie osiągnęły status „Dostarczone”. Po wybraniu z listy konkretnego zamówienia użytkownik może wskazać powód reklamacji z predefiniowanych kafelków (np. „Produkt uszkodzony”, „Złe zamówienie”) oraz opcjonalnie opisać zaistniały problem własnymi słowami. Gotowy formularz jest natychmiast przesyłany do rozpatrzenia przez obsługę restauracji.
+\clearpage
+\newpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[a]{0.70\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Klient/fig_021.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[a]{0.28\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Klient/fig_022.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok panelu klienta - logowanie}
+\end{figure}
+\clearpage
+\newpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[a]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Klient/fig_015.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[a]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Klient/fig_016.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok panelu klienta - dane osobowe}
+\end{figure}
+\newpage
+\clearpage
+\newpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[a]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Klient/fig_017.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[a]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Klient/fig_018.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok panelu klienta - historia zamówień}
+\end{figure}
+\newpage
+\clearpage
+\newpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[a]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Klient/fig_019.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[a]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Klient/fig_020.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok panelu klienta - zwrot zamówień}
+\end{figure}
+\newpage
+
+\section{Panel admina}
+
+Odpowiedzią na potrzebę zintegrowanego zarządzania restauracją jest dedykowany system back-office, przeznaczony dla personelu i kadry kierowniczej. Widoki administracyjne zostały zaprojektowane ze szczególnym naciskiem na wydajność, szybkość działania oraz czytelną prezentację dużej ilości danych operacyjnych.
+
+\vspace{10pt}
+\textbf{Główny pulpit operacyjny (Dashboard)}
+\vspace{5pt}
+
+Po zalogowaniu się do systemu z odpowiednimi uprawnieniami, administrator trafia na główny pulpit dowodzenia. Górna sekcja ekranu zawiera dynamiczne kafelki wskaźników (KPI), które od razu dostarczają kluczowych danych analitycznych: dziennych przychodów, liczby obsłużonych dzisiaj zamówień, aktualnego stanu bazy klientów oraz wielkości asortymentu. Informacje te są automatycznie zestawiane z procentowymi wskaźnikami wzrostu lub spadku w stosunku do poprzednich tygodni. 
+
+Centralnym elementem operacyjnym tego widoku jest tabela „Ostatnich zamówień”, do której w czasie rzeczywistym spływają nowe zgłoszenia od klientów. Pracownik może z tego miejsca na bieżąco monitorować kolejkę, weryfikować pozycje na rachunku poszczególnych klientów oraz nadzorować status logistyczny zamówień, począwszy od ich wejścia na kuchnię, aż po fizyczne dostarczenie pod wskazany adres.
+\vspace{20pt}
+\clearpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[a]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_023.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[a]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_024.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok panelu admina - dashboard}
+\end{figure}
+\newpage
+
+\vspace{10pt}
+\textbf{Zarządzanie Menu i asortymentem}
+\vspace{5pt}
+
+Kolejnym kluczowym widokiem w panelu pracownika jest moduł zarządzania kartą dań. Dzięki niemu obsługa restauracji może elastycznie reagować na braki magazynowe lub sezonowe zmiany w ofercie bez jakiejkolwiek ingerencji programistycznej w kod aplikacji. Interfejs opiera się na rozbudowanej tabeli gromadzącej wszystkie pozycje z menu. Administrator może z tego miejsca dodawać zupełnie nowe kompozycje, modyfikować nazwy i opisy, błyskawicznie aktualizować ceny oraz nakładać z poziomu panelu etykiety promocyjne (np. „PROMO”, „NEW”), które natychmiast odzwierciedlają się w interfejsie klientów. Zaimplementowana w tabeli wewnętrzna wyszukiwarka dodatkowo usprawnia i przyspiesza lokalizację konkretnych produktów w systemie.
+\clearpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[a]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_025.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[a]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_026.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok panelu admina - zarządzanie menu}
+\end{figure}
+\newpage
+\clearpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[b]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_027.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_028.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok panelu admina - zamówienia}
+\end{figure}
+\newpage
+\clearpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[b]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_029.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_030.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok panelu admina - kreator promocji}
+\end{figure}
+\newpage
+\clearpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[b]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_031.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_032.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok panelu admina - wnioski o zwrot}
+\end{figure}
+\newpage
+\clearpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[b]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_033.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_034.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok panelu admina - klienci}
+\end{figure}
+\newpage
+\clearpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[b]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_035.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_036.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok panelu admina - pracownicy}
+\end{figure}
+\newpage
+
+
+\vspace{10pt}
+\textbf{Panel kuchni (Zarządzanie produkcją)}
+\vspace{5pt}
+
+Aby zapewnić płynny przepływ informacji pomiędzy systemem online a zapleczem restauracji, zaprojektowano dedykowany widok dla pracowników kuchni. Interfejs ten cyfryzuje tradycyjne, papierowe bony zamówień. Na samej górze znajdują się czytelne liczniki informujące o bieżącym obciążeniu (zamówienia oczekujące, w przygotowaniu oraz gotowe do odbioru). Główna część ekranu podzielona jest na kolumny operacyjne: „Do przygotowania” oraz „Gotowe”. 
+
+Każde spływające zamówienie prezentowane jest w formie osobnej karty roboczej, zawierającej numer, godzinę przyjęcia oraz typ realizacji. Najważniejszą częścią karty jest szczegółowa lista produktów – w przypadku zamówień z kreatora system precyzyjnie wylistowuje składniki, a w wariancie dzielonym wyraźnie rozdziela je na lewą i prawą połowę. Dzięki dużym przyciskom akcji (np. „Zmień na: W przygotowaniu”), kucharz może sprawnie zaktualizować status zamówienia, co jest natychmiast synchronizowane z resztą ekosystemu aplikacji.
+\vspace{20pt}
+\clearpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[b]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_037.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_038.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok panelu admina - kuchnia}
+\end{figure}
+
+\newpage
+\vspace{10pt}
+\textbf{Panel dostawcy (Logistyka)}
+\vspace{5pt}
+
+Ostatnim ogniwem w wewnętrznym procesie obsługi zamówienia jest moduł przeznaczony dla kurierów, zoptymalizowany pod kątem ekranów mobilnych i pracy w terenie. Podobnie jak w panelu kuchni, górny pasek prezentuje podsumowanie bieżących zadań: liczbę paczek oczekujących na dostarczenie, zamówienia w trasie oraz te zrealizowane w danym dniu. 
+
+Karta zamówienia z perspektywy dostawcy przeszła gruntowną reorganizację – została ograniczona wyłącznie do niezbędnych w trasie danych logistycznych: dokładnego adresu, imienia i nazwiska klienta, numeru telefonu, a także formy płatności i łącznej kwoty do zapłaty (co jest kluczowe przy rozliczeniach gotówkowych). Za pomocą głównego przycisku operacyjnego („Rozpocznij dostawę”), kierowca informuje system o wyjeździe z lokalu. Po pomyślnym przekazaniu posiłków, kurier zamyka proces w aplikacji, a zlecenie zostaje przeniesione do sekcji „Ostatnio dostarczone”, tym samym zamykając cykl życia zamówienia.
+\vspace{20pt}
+\clearpage
+\begin{figure}[H]
+    \centering
+    % Zmieniamy [b] na [c]
+    \begin{subfigure}[b]{0.73\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_039.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.20\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/Admin/fig_040.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    
+    \caption{Widok panelu admina - dostawca}
+\end{figure}
+\newpage
+
+

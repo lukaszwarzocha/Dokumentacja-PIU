@@ -360,15 +360,300 @@ OUTPUT chapters\chapter004.aux
 INPUT .\chapters\chapter004.tex
 INPUT .\chapters\chapter004.tex
 INPUT chapters\chapter004.tex
+INPUT .\figures\Main\fig_001.png
+INPUT .\figures\Main\fig_001.png
+INPUT .\figures\Main\fig_001.png
+INPUT .\figures\Main\fig_001.png
+INPUT .\figures\Main\fig_001.png
+INPUT .\figures\Main\fig_001.png
+INPUT .\figures\Main\fig_001.png
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT .\figures\Main\fig_002.png
+INPUT .\figures\Main\fig_002.png
+INPUT .\figures\Main\fig_002.png
+INPUT .\figures\Main\fig_002.png
+INPUT .\figures\Main\fig_002.png
+INPUT .\figures\Main\fig_002.png
+INPUT .\figures\Main\fig_002.png
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT .\figures\Main\fig_003.png
+INPUT .\figures\Main\fig_003.png
+INPUT .\figures\Main\fig_003.png
+INPUT .\figures\Main\fig_003.png
+INPUT .\figures\Main\fig_003.png
+INPUT .\figures\Main\fig_003.png
+INPUT .\figures\Main\fig_003.png
+INPUT .\figures\Main\fig_004.png
+INPUT .\figures\Main\fig_004.png
+INPUT .\figures\Main\fig_004.png
+INPUT .\figures\Main\fig_004.png
+INPUT .\figures\Main\fig_004.png
+INPUT .\figures\Main\fig_004.png
+INPUT .\figures\Main\fig_004.png
+INPUT .\figures\Main\fig_005.png
+INPUT .\figures\Main\fig_005.png
+INPUT .\figures\Main\fig_005.png
+INPUT .\figures\Main\fig_005.png
+INPUT .\figures\Main\fig_005.png
+INPUT .\figures\Main\fig_005.png
+INPUT .\figures\Main\fig_005.png
+INPUT .\figures\Main\fig_006.png
+INPUT .\figures\Main\fig_006.png
+INPUT .\figures\Main\fig_006.png
+INPUT .\figures\Main\fig_006.png
+INPUT .\figures\Main\fig_006.png
+INPUT .\figures\Main\fig_006.png
+INPUT .\figures\Main\fig_006.png
+INPUT .\figures\Kreator Pizzy\fig_007.png
+INPUT .\figures\Kreator Pizzy\fig_007.png
+INPUT .\figures\Kreator Pizzy\fig_007.png
+INPUT .\figures\Kreator Pizzy\fig_007.png
+INPUT .\figures\Kreator Pizzy\fig_007.png
+INPUT .\figures\Kreator Pizzy\fig_007.png
+INPUT .\figures\Kreator Pizzy\fig_007.png
+INPUT .\figures\Kreator Pizzy\fig_008.png
+INPUT .\figures\Kreator Pizzy\fig_008.png
+INPUT .\figures\Kreator Pizzy\fig_008.png
+INPUT .\figures\Kreator Pizzy\fig_008.png
+INPUT .\figures\Kreator Pizzy\fig_008.png
+INPUT .\figures\Kreator Pizzy\fig_008.png
+INPUT .\figures\Kreator Pizzy\fig_008.png
+INPUT .\figures\Kreator Pizzy\fig_009.png
+INPUT .\figures\Kreator Pizzy\fig_009.png
+INPUT .\figures\Kreator Pizzy\fig_009.png
+INPUT .\figures\Kreator Pizzy\fig_009.png
+INPUT .\figures\Kreator Pizzy\fig_009.png
+INPUT .\figures\Kreator Pizzy\fig_009.png
+INPUT .\figures\Kreator Pizzy\fig_009.png
+INPUT .\figures\Kreator Pizzy\fig_010.png
+INPUT .\figures\Kreator Pizzy\fig_010.png
+INPUT .\figures\Kreator Pizzy\fig_010.png
+INPUT .\figures\Kreator Pizzy\fig_010.png
+INPUT .\figures\Kreator Pizzy\fig_010.png
+INPUT .\figures\Kreator Pizzy\fig_010.png
+INPUT .\figures\Kreator Pizzy\fig_010.png
+INPUT .\figures\Kreator Pizzy\fig_011.png
+INPUT .\figures\Kreator Pizzy\fig_011.png
+INPUT .\figures\Kreator Pizzy\fig_011.png
+INPUT .\figures\Kreator Pizzy\fig_011.png
+INPUT .\figures\Kreator Pizzy\fig_011.png
+INPUT .\figures\Kreator Pizzy\fig_011.png
+INPUT .\figures\Kreator Pizzy\fig_011.png
+INPUT .\figures\Kreator Pizzy\fig_012.png
+INPUT .\figures\Kreator Pizzy\fig_012.png
+INPUT .\figures\Kreator Pizzy\fig_012.png
+INPUT .\figures\Kreator Pizzy\fig_012.png
+INPUT .\figures\Kreator Pizzy\fig_012.png
+INPUT .\figures\Kreator Pizzy\fig_012.png
+INPUT .\figures\Kreator Pizzy\fig_012.png
+INPUT .\figures\Kreator Pizzy\fig_013.png
+INPUT .\figures\Kreator Pizzy\fig_013.png
+INPUT .\figures\Kreator Pizzy\fig_013.png
+INPUT .\figures\Kreator Pizzy\fig_013.png
+INPUT .\figures\Kreator Pizzy\fig_013.png
+INPUT .\figures\Kreator Pizzy\fig_013.png
+INPUT .\figures\Kreator Pizzy\fig_013.png
+INPUT .\figures\Kreator Pizzy\fig_014.png
+INPUT .\figures\Kreator Pizzy\fig_014.png
+INPUT .\figures\Kreator Pizzy\fig_014.png
+INPUT .\figures\Kreator Pizzy\fig_014.png
+INPUT .\figures\Kreator Pizzy\fig_014.png
+INPUT .\figures\Kreator Pizzy\fig_014.png
+INPUT .\figures\Kreator Pizzy\fig_014.png
+INPUT .\figures\Klient\fig_021.png
+INPUT .\figures\Klient\fig_021.png
+INPUT .\figures\Klient\fig_021.png
+INPUT .\figures\Klient\fig_021.png
+INPUT .\figures\Klient\fig_021.png
+INPUT .\figures\Klient\fig_021.png
+INPUT .\figures\Klient\fig_021.png
+INPUT .\figures\Klient\fig_022.png
+INPUT .\figures\Klient\fig_022.png
+INPUT .\figures\Klient\fig_022.png
+INPUT .\figures\Klient\fig_022.png
+INPUT .\figures\Klient\fig_022.png
+INPUT .\figures\Klient\fig_022.png
+INPUT .\figures\Klient\fig_022.png
+INPUT .\figures\Klient\fig_015.png
+INPUT .\figures\Klient\fig_015.png
+INPUT .\figures\Klient\fig_015.png
+INPUT .\figures\Klient\fig_015.png
+INPUT .\figures\Klient\fig_015.png
+INPUT .\figures\Klient\fig_015.png
+INPUT .\figures\Klient\fig_015.png
+INPUT .\figures\Klient\fig_016.png
+INPUT .\figures\Klient\fig_016.png
+INPUT .\figures\Klient\fig_016.png
+INPUT .\figures\Klient\fig_016.png
+INPUT .\figures\Klient\fig_016.png
+INPUT .\figures\Klient\fig_016.png
+INPUT .\figures\Klient\fig_016.png
+INPUT .\figures\Klient\fig_017.png
+INPUT .\figures\Klient\fig_017.png
+INPUT .\figures\Klient\fig_017.png
+INPUT .\figures\Klient\fig_017.png
+INPUT .\figures\Klient\fig_017.png
+INPUT .\figures\Klient\fig_017.png
+INPUT .\figures\Klient\fig_017.png
+INPUT .\figures\Klient\fig_018.png
+INPUT .\figures\Klient\fig_018.png
+INPUT .\figures\Klient\fig_018.png
+INPUT .\figures\Klient\fig_018.png
+INPUT .\figures\Klient\fig_018.png
+INPUT .\figures\Klient\fig_018.png
+INPUT .\figures\Klient\fig_018.png
+INPUT .\figures\Klient\fig_019.png
+INPUT .\figures\Klient\fig_019.png
+INPUT .\figures\Klient\fig_019.png
+INPUT .\figures\Klient\fig_019.png
+INPUT .\figures\Klient\fig_019.png
+INPUT .\figures\Klient\fig_019.png
+INPUT .\figures\Klient\fig_019.png
+INPUT .\figures\Klient\fig_020.png
+INPUT .\figures\Klient\fig_020.png
+INPUT .\figures\Klient\fig_020.png
+INPUT .\figures\Klient\fig_020.png
+INPUT .\figures\Klient\fig_020.png
+INPUT .\figures\Klient\fig_020.png
+INPUT .\figures\Klient\fig_020.png
+INPUT .\figures\Admin\fig_023.png
+INPUT .\figures\Admin\fig_023.png
+INPUT .\figures\Admin\fig_023.png
+INPUT .\figures\Admin\fig_023.png
+INPUT .\figures\Admin\fig_023.png
+INPUT .\figures\Admin\fig_023.png
+INPUT .\figures\Admin\fig_023.png
+INPUT .\figures\Admin\fig_024.png
+INPUT .\figures\Admin\fig_024.png
+INPUT .\figures\Admin\fig_024.png
+INPUT .\figures\Admin\fig_024.png
+INPUT .\figures\Admin\fig_024.png
+INPUT .\figures\Admin\fig_024.png
+INPUT .\figures\Admin\fig_024.png
+INPUT .\figures\Admin\fig_025.png
+INPUT .\figures\Admin\fig_025.png
+INPUT .\figures\Admin\fig_025.png
+INPUT .\figures\Admin\fig_025.png
+INPUT .\figures\Admin\fig_025.png
+INPUT .\figures\Admin\fig_025.png
+INPUT .\figures\Admin\fig_025.png
+INPUT .\figures\Admin\fig_026.png
+INPUT .\figures\Admin\fig_026.png
+INPUT .\figures\Admin\fig_026.png
+INPUT .\figures\Admin\fig_026.png
+INPUT .\figures\Admin\fig_026.png
+INPUT .\figures\Admin\fig_026.png
+INPUT .\figures\Admin\fig_026.png
+INPUT .\figures\Admin\fig_027.png
+INPUT .\figures\Admin\fig_027.png
+INPUT .\figures\Admin\fig_027.png
+INPUT .\figures\Admin\fig_027.png
+INPUT .\figures\Admin\fig_027.png
+INPUT .\figures\Admin\fig_027.png
+INPUT .\figures\Admin\fig_027.png
+INPUT .\figures\Admin\fig_028.png
+INPUT .\figures\Admin\fig_028.png
+INPUT .\figures\Admin\fig_028.png
+INPUT .\figures\Admin\fig_028.png
+INPUT .\figures\Admin\fig_028.png
+INPUT .\figures\Admin\fig_028.png
+INPUT .\figures\Admin\fig_028.png
+INPUT .\figures\Admin\fig_029.png
+INPUT .\figures\Admin\fig_029.png
+INPUT .\figures\Admin\fig_029.png
+INPUT .\figures\Admin\fig_029.png
+INPUT .\figures\Admin\fig_029.png
+INPUT .\figures\Admin\fig_029.png
+INPUT .\figures\Admin\fig_029.png
+INPUT .\figures\Admin\fig_030.png
+INPUT .\figures\Admin\fig_030.png
+INPUT .\figures\Admin\fig_030.png
+INPUT .\figures\Admin\fig_030.png
+INPUT .\figures\Admin\fig_030.png
+INPUT .\figures\Admin\fig_030.png
+INPUT .\figures\Admin\fig_030.png
+INPUT .\figures\Admin\fig_031.png
+INPUT .\figures\Admin\fig_031.png
+INPUT .\figures\Admin\fig_031.png
+INPUT .\figures\Admin\fig_031.png
+INPUT .\figures\Admin\fig_031.png
+INPUT .\figures\Admin\fig_031.png
+INPUT .\figures\Admin\fig_031.png
+INPUT .\figures\Admin\fig_032.png
+INPUT .\figures\Admin\fig_032.png
+INPUT .\figures\Admin\fig_032.png
+INPUT .\figures\Admin\fig_032.png
+INPUT .\figures\Admin\fig_032.png
+INPUT .\figures\Admin\fig_032.png
+INPUT .\figures\Admin\fig_032.png
+INPUT .\figures\Admin\fig_033.png
+INPUT .\figures\Admin\fig_033.png
+INPUT .\figures\Admin\fig_033.png
+INPUT .\figures\Admin\fig_033.png
+INPUT .\figures\Admin\fig_033.png
+INPUT .\figures\Admin\fig_033.png
+INPUT .\figures\Admin\fig_033.png
+INPUT .\figures\Admin\fig_034.png
+INPUT .\figures\Admin\fig_034.png
+INPUT .\figures\Admin\fig_034.png
+INPUT .\figures\Admin\fig_034.png
+INPUT .\figures\Admin\fig_034.png
+INPUT .\figures\Admin\fig_034.png
+INPUT .\figures\Admin\fig_034.png
+INPUT .\figures\Admin\fig_035.png
+INPUT .\figures\Admin\fig_035.png
+INPUT .\figures\Admin\fig_035.png
+INPUT .\figures\Admin\fig_035.png
+INPUT .\figures\Admin\fig_035.png
+INPUT .\figures\Admin\fig_035.png
+INPUT .\figures\Admin\fig_035.png
+INPUT .\figures\Admin\fig_036.png
+INPUT .\figures\Admin\fig_036.png
+INPUT .\figures\Admin\fig_036.png
+INPUT .\figures\Admin\fig_036.png
+INPUT .\figures\Admin\fig_036.png
+INPUT .\figures\Admin\fig_036.png
+INPUT .\figures\Admin\fig_036.png
+INPUT .\figures\Admin\fig_037.png
+INPUT .\figures\Admin\fig_037.png
+INPUT .\figures\Admin\fig_037.png
+INPUT .\figures\Admin\fig_037.png
+INPUT .\figures\Admin\fig_037.png
+INPUT .\figures\Admin\fig_037.png
+INPUT .\figures\Admin\fig_037.png
+INPUT .\figures\Admin\fig_038.png
+INPUT .\figures\Admin\fig_038.png
+INPUT .\figures\Admin\fig_038.png
+INPUT .\figures\Admin\fig_038.png
+INPUT .\figures\Admin\fig_038.png
+INPUT .\figures\Admin\fig_038.png
+INPUT .\figures\Admin\fig_038.png
+INPUT .\figures\Admin\fig_039.png
+INPUT .\figures\Admin\fig_039.png
+INPUT .\figures\Admin\fig_039.png
+INPUT .\figures\Admin\fig_039.png
+INPUT .\figures\Admin\fig_039.png
+INPUT .\figures\Admin\fig_039.png
+INPUT .\figures\Admin\fig_039.png
+INPUT .\figures\Admin\fig_040.png
+INPUT .\figures\Admin\fig_040.png
+INPUT .\figures\Admin\fig_040.png
+INPUT .\figures\Admin\fig_040.png
+INPUT .\figures\Admin\fig_040.png
+INPUT .\figures\Admin\fig_040.png
+INPUT .\figures\Admin\fig_040.png
 INPUT .\chapters\chapter005.tex
 INPUT .\chapters\chapter005.tex
 OUTPUT chapters\chapter005.aux
 INPUT .\chapters\chapter005.tex
 INPUT .\chapters\chapter005.tex
 INPUT chapters\chapter005.tex
-INPUT .\praca.bbl
-INPUT .\praca.bbl
-INPUT praca.bbl
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT .\praca.lof
@@ -377,10 +662,6 @@ INPUT praca.lof
 OUTPUT praca.lof
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT .\praca.lol
-INPUT .\praca.lol
-INPUT praca.lol
-OUTPUT praca.lol
 INPUT praca.aux
 INPUT .\chapters\chapter001.aux
 INPUT .\chapters\chapter001.aux

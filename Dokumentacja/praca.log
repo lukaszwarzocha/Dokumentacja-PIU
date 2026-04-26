@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  25 APR 2026 08:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.9)  26 APR 2026 21:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -745,7 +745,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 211.
  (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/ur.jpg, id=82, 134.00063pt x 134.00063pt>
+<figures/ur.jpg, id=71, 134.00063pt x 134.00063pt>
 File: figures/ur.jpg Graphic file (type jpg)
 <use figures/ur.jpg>
 Package pdftex.def Info: figures/ur.jpg  used on input line 211.
@@ -813,17 +813,271 @@ Rozdzia\l  3.
 
  (chapters/chapter004.tex
 Rozdzia\l  4.
-) [11
+[11
 
 
 
 
 ]
+<figures/Main/fig_001.png, id=136, 1444.39626pt x 2374.8725pt>
+File: figures/Main/fig_001.png Graphic file (type png)
+<use figures/Main/fig_001.png>
+Package pdftex.def Info: figures/Main/fig_001.png  used on input line 28.
+(pdftex.def)             Requested size: 285.94942pt x 470.14648pt.
+<figures/Main/fig_002.png, id=138, 416.55624pt x 1820.8025pt>
+File: figures/Main/fig_002.png Graphic file (type png)
+<use figures/Main/fig_002.png>
+Package pdftex.def Info: figures/Main/fig_002.png  used on input line 34.
+(pdftex.def)             Requested size: 106.69783pt x 466.36835pt.
+ [12 <./figures/Main/fig_001.png> <./figures/Main/fig_002.png>]
+<figures/Main/fig_003.png, id=146, 1445.4pt x 1997.4625pt>
+File: figures/Main/fig_003.png Graphic file (type png)
+<use figures/Main/fig_003.png>
+Package pdftex.def Info: figures/Main/fig_003.png  used on input line 48.
+(pdftex.def)             Requested size: 285.94942pt x 395.15744pt.
+<figures/Main/fig_004.png, id=147, 415.5525pt x 2620.79124pt>
+File: figures/Main/fig_004.png Graphic file (type png)
+<use figures/Main/fig_004.png>
+Package pdftex.def Info: figures/Main/fig_004.png  used on input line 54.
+(pdftex.def)             Requested size: 64.01608pt x 403.69908pt.
+ [13 <./figures/Main/fig_003.png> <./figures/Main/fig_004.png>] [14]
+<figures/Main/fig_005.png, id=159, 1445.4pt x 1604.99625pt>
+File: figures/Main/fig_005.png Graphic file (type png)
+<use figures/Main/fig_005.png>
+Package pdftex.def Info: figures/Main/fig_005.png  used on input line 80.
+(pdftex.def)             Requested size: 311.55586pt x 345.94911pt.
+<figures/Main/fig_006.png, id=160, 403.5075pt x 1348.03625pt>
+File: figures/Main/fig_006.png Graphic file (type png)
+<use figures/Main/fig_006.png>
+Package pdftex.def Info: figures/Main/fig_006.png  used on input line 86.
+(pdftex.def)             Requested size: 106.69783pt x 356.44627pt.
+ [15 <./figures/Main/fig_005.png> <./figures/Main/fig_006.png>] [16]
+<figures/Kreator Pizzy/fig_007.png, id=173, 1455.4375pt x 1558.82375pt>
+File: figures/Kreator Pizzy/fig_007.png Graphic file (type png)
+<use figures/Kreator Pizzy/fig_007.png>
+Package pdftex.def Info: figures/Kreator Pizzy/fig_007.png  used on input line 117.
+(pdftex.def)             Requested size: 311.55586pt x 333.68965pt.
+<figures/Kreator Pizzy/fig_008.png, id=174, 415.5525pt x 2039.62pt>
+File: figures/Kreator Pizzy/fig_008.png Graphic file (type png)
+<use figures/Kreator Pizzy/fig_008.png>
+Package pdftex.def Info: figures/Kreator Pizzy/fig_008.png  used on input line 123.
+(pdftex.def)             Requested size: 110.9634pt x 544.63597pt.
+ [17
+
+ <./figures/Kreator Pizzy/fig_007.png> <./figures/Kreator Pizzy/fig_008.png>]
+<figures/Kreator Pizzy/fig_009.png, id=182, 1456.44125pt x 1541.76pt>
+File: figures/Kreator Pizzy/fig_009.png Graphic file (type png)
+<use figures/Kreator Pizzy/fig_009.png>
+Package pdftex.def Info: figures/Kreator Pizzy/fig_009.png  used on input line 137.
+(pdftex.def)             Requested size: 311.55586pt x 329.80164pt.
+<figures/Kreator Pizzy/fig_010.png, id=183, 415.5525pt x 1970.36125pt>
+File: figures/Kreator Pizzy/fig_010.png Graphic file (type png)
+<use figures/Kreator Pizzy/fig_010.png>
+Package pdftex.def Info: figures/Kreator Pizzy/fig_010.png  used on input line 143.
+(pdftex.def)             Requested size: 106.69783pt x 505.90802pt.
+ [18
+
+ <./figures/Kreator Pizzy/fig_009.png> <./figures/Kreator Pizzy/fig_010.png>]
+<figures/Kreator Pizzy/fig_011.png, id=191, 1455.4375pt x 1514.65875pt>
+File: figures/Kreator Pizzy/fig_011.png Graphic file (type png)
+<use figures/Kreator Pizzy/fig_011.png>
+Package pdftex.def Info: figures/Kreator Pizzy/fig_011.png  used on input line 157.
+(pdftex.def)             Requested size: 311.55586pt x 324.23546pt.
+<figures/Kreator Pizzy/fig_012.png, id=192, 415.5525pt x 1707.37875pt>
+File: figures/Kreator Pizzy/fig_012.png Graphic file (type png)
+<use figures/Kreator Pizzy/fig_012.png>
+Package pdftex.def Info: figures/Kreator Pizzy/fig_012.png  used on input line 163.
+(pdftex.def)             Requested size: 106.69783pt x 438.38489pt.
+ [19
+
+ <./figures/Kreator Pizzy/fig_011.png> <./figures/Kreator Pizzy/fig_012.png>]
+<figures/Kreator Pizzy/fig_013.png, id=200, 1455.4375pt x 1801.73125pt>
+File: figures/Kreator Pizzy/fig_013.png Graphic file (type png)
+<use figures/Kreator Pizzy/fig_013.png>
+Package pdftex.def Info: figures/Kreator Pizzy/fig_013.png  used on input line 177.
+(pdftex.def)             Requested size: 311.55586pt x 385.68765pt.
+<figures/Kreator Pizzy/fig_014.png, id=201, 415.5525pt x 3159.805pt>
+File: figures/Kreator Pizzy/fig_014.png Graphic file (type png)
+<use figures/Kreator Pizzy/fig_014.png>
+Package pdftex.def Info: figures/Kreator Pizzy/fig_014.png  used on input line 183.
+(pdftex.def)             Requested size: 85.35696pt x 649.0178pt.
+ [20
+
+ <./figures/Kreator Pizzy/fig_013.png> <./figures/Kreator Pizzy/fig_014.png>] [21]
+<figures/Klient/fig_021.png, id=214, 1445.4pt x 1384.17125pt>
+File: figures/Klient/fig_021.png Graphic file (type png)
+<use figures/Klient/fig_021.png>
+Package pdftex.def Info: figures/Klient/fig_021.png  used on input line 221.
+(pdftex.def)             Requested size: 298.75264pt x 286.10135pt.
+<figures/Klient/fig_022.png, id=215, 415.5525pt x 1117.17375pt>
+File: figures/Klient/fig_022.png Graphic file (type png)
+<use figures/Klient/fig_022.png>
+Package pdftex.def Info: figures/Klient/fig_022.png  used on input line 227.
+(pdftex.def)             Requested size: 119.50105pt x 321.26167pt.
+ [22
+
+ <./figures/Klient/fig_021.png> <./figures/Klient/fig_022.png>]
+<figures/Klient/fig_015.png, id=223, 1445.4pt x 1384.17125pt>
+File: figures/Klient/fig_015.png Graphic file (type png)
+<use figures/Klient/fig_015.png>
+Package pdftex.def Info: figures/Klient/fig_015.png  used on input line 240.
+(pdftex.def)             Requested size: 311.55586pt x 298.35136pt.
+<figures/Klient/fig_016.png, id=224, 415.5525pt x 1960.32375pt>
+File: figures/Klient/fig_016.png Graphic file (type png)
+<use figures/Klient/fig_016.png>
+Package pdftex.def Info: figures/Klient/fig_016.png  used on input line 246.
+(pdftex.def)             Requested size: 85.35696pt x 402.64668pt.
+ [23
+
+ <./figures/Klient/fig_015.png> <./figures/Klient/fig_016.png>]
+<figures/Klient/fig_017.png, id=232, 1445.4pt x 1384.17125pt>
+File: figures/Klient/fig_017.png Graphic file (type png)
+<use figures/Klient/fig_017.png>
+Package pdftex.def Info: figures/Klient/fig_017.png  used on input line 260.
+(pdftex.def)             Requested size: 311.55586pt x 298.35136pt.
+<figures/Klient/fig_018.png, id=233, 415.5525pt x 2057.6875pt>
+File: figures/Klient/fig_018.png Graphic file (type png)
+<use figures/Klient/fig_018.png>
+Package pdftex.def Info: figures/Klient/fig_018.png  used on input line 266.
+(pdftex.def)             Requested size: 85.35696pt x 422.64502pt.
+ [24
+
+ <./figures/Klient/fig_017.png> <./figures/Klient/fig_018.png>]
+<figures/Klient/fig_019.png, id=241, 1445.4pt x 1446.40375pt>
+File: figures/Klient/fig_019.png Graphic file (type png)
+<use figures/Klient/fig_019.png>
+Package pdftex.def Info: figures/Klient/fig_019.png  used on input line 280.
+(pdftex.def)             Requested size: 311.55586pt x 311.76527pt.
+<figures/Klient/fig_020.png, id=242, 405.515pt x 1840.8775pt>
+File: figures/Klient/fig_020.png Graphic file (type png)
+<use figures/Klient/fig_020.png>
+Package pdftex.def Info: figures/Klient/fig_020.png  used on input line 286.
+(pdftex.def)             Requested size: 85.35696pt x 387.46646pt.
+ [25
+
+ <./figures/Klient/fig_019.png> <./figures/Klient/fig_020.png>] [26]
+<figures/Admin/fig_023.png, id=254, 1445.4pt x 1084.05pt>
+File: figures/Admin/fig_023.png Graphic file (type png)
+<use figures/Admin/fig_023.png>
+Package pdftex.def Info: figures/Admin/fig_023.png  used on input line 312.
+(pdftex.def)             Requested size: 311.55586pt x 233.6617pt.
+<figures/Admin/fig_024.png, id=255, 403.5075pt x 1204.5pt>
+File: figures/Admin/fig_024.png Graphic file (type png)
+<use figures/Admin/fig_024.png>
+Package pdftex.def Info: figures/Admin/fig_024.png  used on input line 318.
+(pdftex.def)             Requested size: 85.35696pt x 254.79037pt.
+ [27
+
+ <./figures/Admin/fig_023.png> <./figures/Admin/fig_024.png>] [28]
+<figures/Admin/fig_025.png, id=268, 1445.4pt x 1666.225pt>
+File: figures/Admin/fig_025.png Graphic file (type png)
+<use figures/Admin/fig_025.png>
+Package pdftex.def Info: figures/Admin/fig_025.png  used on input line 337.
+(pdftex.def)             Requested size: 311.55586pt x 359.14668pt.
+<figures/Admin/fig_026.png, id=269, 403.5075pt x 2369.85374pt>
+File: figures/Admin/fig_026.png Graphic file (type png)
+<use figures/Admin/fig_026.png>
+Package pdftex.def Info: figures/Admin/fig_026.png  used on input line 343.
+(pdftex.def)             Requested size: 85.35696pt x 501.30008pt.
+ [29
+
+ <./figures/Admin/fig_025.png> <./figures/Admin/fig_026.png>]
+<figures/Admin/fig_027.png, id=277, 1445.4pt x 1084.05pt>
+File: figures/Admin/fig_027.png Graphic file (type png)
+<use figures/Admin/fig_027.png>
+Package pdftex.def Info: figures/Admin/fig_027.png  used on input line 356.
+(pdftex.def)             Requested size: 311.55586pt x 233.6617pt.
+<figures/Admin/fig_028.png, id=278, 403.5075pt x 1444.39626pt>
+File: figures/Admin/fig_028.png Graphic file (type png)
+<use figures/Admin/fig_028.png>
+Package pdftex.def Info: figures/Admin/fig_028.png  used on input line 362.
+(pdftex.def)             Requested size: 85.35696pt x 305.53613pt.
+ [30
+
+ <./figures/Admin/fig_027.png> <./figures/Admin/fig_028.png>]
+<figures/Admin/fig_029.png, id=286, 1445.4pt x 1084.05pt>
+File: figures/Admin/fig_029.png Graphic file (type png)
+<use figures/Admin/fig_029.png>
+Package pdftex.def Info: figures/Admin/fig_029.png  used on input line 375.
+(pdftex.def)             Requested size: 311.55586pt x 233.6617pt.
+<figures/Admin/fig_030.png, id=287, 411.5375pt x 1093.08376pt>
+File: figures/Admin/fig_030.png Graphic file (type png)
+<use figures/Admin/fig_030.png>
+Package pdftex.def Info: figures/Admin/fig_030.png  used on input line 381.
+(pdftex.def)             Requested size: 85.35696pt x 226.71892pt.
+ [31
+
+ <./figures/Admin/fig_029.png> <./figures/Admin/fig_030.png>]
+<figures/Admin/fig_031.png, id=295, 1445.4pt x 1084.05pt>
+File: figures/Admin/fig_031.png Graphic file (type png)
+<use figures/Admin/fig_031.png>
+Package pdftex.def Info: figures/Admin/fig_031.png  used on input line 394.
+(pdftex.def)             Requested size: 311.55586pt x 233.6617pt.
+<figures/Admin/fig_032.png, id=296, 403.5075pt x 877.2775pt>
+File: figures/Admin/fig_032.png Graphic file (type png)
+<use figures/Admin/fig_032.png>
+Package pdftex.def Info: figures/Admin/fig_032.png  used on input line 400.
+(pdftex.def)             Requested size: 85.35696pt x 185.57233pt.
+ [32
+
+ <./figures/Admin/fig_031.png> <./figures/Admin/fig_032.png>]
+<figures/Admin/fig_033.png, id=304, 1445.4pt x 1415.2875pt>
+File: figures/Admin/fig_033.png Graphic file (type png)
+<use figures/Admin/fig_033.png>
+Package pdftex.def Info: figures/Admin/fig_033.png  used on input line 413.
+(pdftex.def)             Requested size: 311.55586pt x 305.05832pt.
+<figures/Admin/fig_034.png, id=305, 403.5075pt x 1596.96625pt>
+File: figures/Admin/fig_034.png Graphic file (type png)
+<use figures/Admin/fig_034.png>
+Package pdftex.def Info: figures/Admin/fig_034.png  used on input line 419.
+(pdftex.def)             Requested size: 85.35696pt x 337.80959pt.
+ [33
+
+ <./figures/Admin/fig_033.png> <./figures/Admin/fig_034.png>]
+<figures/Admin/fig_035.png, id=314, 1445.4pt x 931.48pt>
+File: figures/Admin/fig_035.png Graphic file (type png)
+<use figures/Admin/fig_035.png>
+Package pdftex.def Info: figures/Admin/fig_035.png  used on input line 432.
+(pdftex.def)             Requested size: 311.55586pt x 200.77597pt.
+<figures/Admin/fig_036.png, id=315, 403.5075pt x 1483.5425pt>
+File: figures/Admin/fig_036.png Graphic file (type png)
+<use figures/Admin/fig_036.png>
+Package pdftex.def Info: figures/Admin/fig_036.png  used on input line 438.
+(pdftex.def)             Requested size: 85.35696pt x 313.81682pt.
+ [34
+
+ <./figures/Admin/fig_035.png> <./figures/Admin/fig_036.png>] [35]
+<figures/Admin/fig_037.png, id=327, 1445.4pt x 1157.32375pt>
+File: figures/Admin/fig_037.png Graphic file (type png)
+<use figures/Admin/fig_037.png>
+Package pdftex.def Info: figures/Admin/fig_037.png  used on input line 461.
+(pdftex.def)             Requested size: 311.55586pt x 249.45549pt.
+<figures/Admin/fig_038.png, id=328, 403.5075pt x 877.2775pt>
+File: figures/Admin/fig_038.png Graphic file (type png)
+<use figures/Admin/fig_038.png>
+Package pdftex.def Info: figures/Admin/fig_038.png  used on input line 467.
+(pdftex.def)             Requested size: 85.35696pt x 185.57233pt.
+ [36
+
+ <./figures/Admin/fig_037.png> <./figures/Admin/fig_038.png>] [37]
+<figures/Admin/fig_039.png, id=340, 1445.4pt x 865.2325pt>
+File: figures/Admin/fig_039.png Graphic file (type png)
+<use figures/Admin/fig_039.png>
+Package pdftex.def Info: figures/Admin/fig_039.png  used on input line 489.
+(pdftex.def)             Requested size: 311.55586pt x 186.49664pt.
+<figures/Admin/fig_040.png, id=341, 422.57875pt x 898.35625pt>
+File: figures/Admin/fig_040.png Graphic file (type png)
+<use figures/Admin/fig_040.png>
+Package pdftex.def Info: figures/Admin/fig_040.png  used on input line 495.
+(pdftex.def)             Requested size: 85.35696pt x 181.45007pt.
+ [38
+
+ <./figures/Admin/fig_039.png> <./figures/Admin/fig_040.png>])
 \openout2 = `chapters/chapter005.aux'.
 
  (chapters/chapter005.tex
 Rozdzia\l  5.
-) [12
+) [39
 
 
 
@@ -831,54 +1085,36 @@ Rozdzia\l  5.
 ]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 240.
+(hyperref)                be the same. Added a new anchor on input line 249.
 
-(praca.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [13
-
-
-
-] (praca.lof)
+(praca.lof)
 \tf@lof=\write5
 \openout5 = `praca.lof'.
 
- [14
-
-] (praca.lol)
-\tf@lol=\write6
-\openout6 = `praca.lol'.
-
- [15
+ [40
 
 
-]
 
-Package caption Warning: Unused \captionsetup[sub] on input line 23.
-See the caption package documentation for explanation.
-
-(praca.aux (chapters/chapter001.aux) (chapters/chapter002.aux) (chapters/chapter003.aux) (chapters/chapter004.aux) (chapters/chapter005.aux))
+] (praca.aux (chapters/chapter001.aux) (chapters/chapter002.aux) (chapters/chapter003.aux) (chapters/chapter004.aux) (chapters/chapter005.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `praca.out' has not changed.
-(rerunfilecheck)             Checksum: 700F95BF4877D2D5E3FAADE166565044;4122.
+(rerunfilecheck)             Checksum: 99ED7177416302A5435935F8B084A1B2;3099.
  ) 
 Here is how much of TeX's memory you used:
- 22916 strings out of 467871
- 437654 string characters out of 5418377
+ 23241 strings out of 467871
+ 447535 string characters out of 5418377
  1005692 words of memory out of 5000000
- 51394 multiletter control sequences out of 15000+600000
- 680021 words of font info for 83 fonts, out of 8000000 for 9000
+ 51680 multiletter control sequences out of 15000+600000
+ 686624 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,12n,94p,1417b,1196s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,12n,94p,1403b,1196s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (13 pages, 128176 bytes).
+Output written on praca.pdf (38 pages, 9639904 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
+ 342 words of extra memory for PDF output out of 10000 (max. 10000000)
 

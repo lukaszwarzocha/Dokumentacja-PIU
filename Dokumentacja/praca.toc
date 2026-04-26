@@ -9,13 +9,10 @@
 \contentsline {section}{\numberline {3.3}Logika przepływu użytkownika}{10}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Specyfika interfejsu w wersji desktopowej}{10}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Adaptacja widoku dla urządzeń mobilnych}{10}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Prezentacja warsty użytkowej projektu}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Proces konfiguracji i zakupu produktu}{11}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Specyfikacja widoków dla modułów produkcyjnych i logistycznych}{11}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Panel administracyjny i kontrola systemu}{11}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Obsługa sytuacji niestandardowych}{11}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Weryfikacja realizacji założeń funkcjonalnych w projekcie interfejsu}{11}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Podsumowanie}{12}{chapter.5}%
-\contentsline {section}{\textbf {Bibliografia}}{13}{section*.1}%
-\contentsline {section}{\textbf {Spis rysunków}}{14}{chapter*.2}%
-\contentsline {section}{\textbf {Spis listingów}}{15}{chapter*.2}%
+\contentsline {chapter}{\numberline {4}Prezentacja warstwy użytkowej projektu}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Moduł główny, menu produktowe oraz koszyk}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Konfigurator produktu - Kreator Pizzy}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Panel klienta}{21}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Panel admina}{26}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Podsumowanie}{39}{chapter.5}%
+\contentsline {section}{\textbf {Spis rysunków}}{40}{section*.21}%
