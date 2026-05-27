@@ -1,6 +1,140 @@
 \chapter{Opis struktury projektu}
 Niniejszy rozdział szczegółowo omawia architekturę informacji oraz organizację funkcjonalną przygotowanego systemu. Opisano w nim zidentyfikowane grupy docelowe wraz z ich zakresem uprawnień, kluczowe moduły operacyjne, a także logikę interakcji na ścieżce użytkownika-interfejs. Ważnym aspektem poddanym analizie jest również wdrożenie wytycznych dotyczących responsywności (RWD), gwarantujących poprawność działania aplikacji na dowolnych urządzeniach.
 
+\section{Wykorzystanie narzędzia AI}
+
+W procesie projektowania interfejsu posiłkowano się 
+narzędziem \textbf{Figma Make}, umożliwiającym tworzenie
+projektów interfejsu, 
+elementów graficznych oraz fragmentów kodu na podstawie 
+opisu w języku naturalnym. Wygenerowane propozycje 
+stanowiły punkt wyjścia, który następnie był weryfikowany, 
+modyfikowany i dostosowywany do przyjętego motywu 
+kolorystycznego oraz wymagań funkcjonalnych projektu.
+
+Narzędzie wykorzystano przede wszystkim do generowania 
+powtarzalnych widoków, standardowych komponentów interfejsu.
+
+Wygenerowana propozycja stanowiła punkt wyjścia do dalszych 
+działań. Kolejne prompty miały charakter udoskonalający 
+i koncentrowały się na konkretnych elementach widoku
+układzie nawigacji, rozmieszczeniu kart produktów, 
+proporcjach przycisków akcji czy spójności marginesów.
+
+Po zakończeniu cyklu promptów z narzędziem AI każdy widok 
+podlegał ręcznej korekcie w edytorze Figmy dostosowywano 
+typografię, weryfikowano zgodność z przyjętą paletą barw 
+oraz korygowano detale, których automatyczne generowanie nie 
+oddawało w pełni zamierzonej koncepcji projektowej. Takie 
+podejście pozwoliło na połączenie szybkości pracy z AI 
+z kontrolą nad ostatecznym kształtem interfejsu.
+
+\newpage
+
+\section{Narzedzie projektowe - Figma}
+
+Projekt graficzny interfejsu użytkownika wykonano w~programie 
+\textbf{Figma} - przeglądarkowym narzędziu do projektowania interfejsów. 
+Figma umożliwia tworzenie reużywalnych komponentów oraz 
+definiowanie stylów kolorystycznych i typograficznych na poziomie całego 
+pliku projektowego. Narzędzie wspiera także budowanie interaktywnych 
+prototypów, dzięki którym możliwe jest odwzorowanie przepływu użytkownika 
+pomiędzy widokami jeszcze przed etapem implementacji.
+
+Poniżej przedstawione są widoki ukazujące komplet zaprojektowanych ekranów 
+w wersji desktopowej i mobilnej.
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{figures/Figma/Main_D.png}
+        \caption{Widok panelu Main w Figmie (wersja desktopowa)}
+    \end{figure}
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{figures/Figma/Main_M.png}
+        \caption{Widok panelu Main w Figmie (wersja mobilna)}
+    \end{figure}
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{figures/Figma/Admin_D.png}
+        \caption{Widok panelu Admin w Figmie (wersja desktopowa)}
+    \end{figure}
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{figures/Figma/Admin_M.png}
+        \caption{Widok panelu Admin w Figmie (wersja mobilna)}
+    \end{figure}
+
+\newpage
+
+\section{Motyw kolorystyczny, typografia i komponenty}
+
+\textbf{Motyw kolorystyczny} 
+
+W projekcie wykorzystano trzy kolory wiodące: pomarańczowy 
+(\#F43B00), biały (\#FFFFFF) oraz czarny (\#000000). Kolor 
+pomarańczowy pełni rolę dominującą i stosowany jest w elementach 
+akcentujących, takich jak przyciski akcji, aktywne pozycje menu 
+oraz wyróżnienia. Biały stanowi tło widoków, natomiast czarny 
+wykorzystano do treści tekstowych.
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{figures/Figma/Paletakolorow.png}
+        \caption{Widok panelu Admin w Figmie (wersja mobilna)}
+    \end{figure}
+
+\textbf{Typografia}
+
+W projekcie zastosowano krój \textbf{Inter} - bezszeryfową 
+czcionkę pochodzącą z biblioteki \emph{Google Fonts}, 
+zaprojektowaną z myślą o czytelności na ekranach. Wykorzystano 
+pięć wariantów grubości: Regular (400), Medium (500), SemiBold 
+(600), Bold (700) oraz Black (900), co pozwoliło na zbudowanie 
+wyraźnej hierarchii wizualnej od treści podstawowej, przez 
+wyróżnienia, aż po najmocniej eksponowane nagłówki.
+
+\textbf{Komponenty}
+
+W projekcie wykorzystano zestaw reużywalnych komponentów 
+przygotowanych w Figmie, na który składają się między innymi: 
+pasek nawigacji (\emph{navbar}) w wariantach desktopowym 
+i mobilnym, stopka (również w obu wariantach), przyciski oraz 
+pasek boczny (\emph{sidebar}) 
+wykorzystywany w panelu administratora. Zastosowanie 
+komponentów pozwoliło na zachowanie spójności wizualnej 
+pomiędzy widokami oraz przyspieszyło proces projektowania 
+poszczególnych widoków. Niektóre komponenty przedstawiono poniżej.
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{figures/Komponenty/Navbar_D.png}
+        \caption{Komponent navbaru (wersja desktopowa)}
+    \end{figure}
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{figures/Komponenty/Navbar_M.png}
+        \caption{Komponent navbaru (wersja mobilna)}
+    \end{figure}
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{figures/Komponenty/Stopka_D.png}
+        \caption{Komponent stopki (wersja desktopowa)}
+    \end{figure}
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=0.3\linewidth]{figures/Komponenty/Sidebar_D.png}
+        \caption{Komponent sidebar (wersja desktopowa)}
+    \end{figure}
+
+\newpage
+
 \section{Definicja ról użytkowników}
 
 W ramach ekosystemu przygotowanej aplikacji pizzerii zidentyfikowano i obsłużono na poziomie interfejsu (oraz dostępu do widoków) trzy główne role użytkowników:
