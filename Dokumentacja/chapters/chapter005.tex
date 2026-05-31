@@ -1,17 +1,125 @@
+\chapter{Implementacja widoków}
+
+W ramach projektu zaimplementowano trzy wybrane widoki aplikacji w postaci funkcjonalnych, responsywnych stron internetowych, napisanych w czystym kodzie HTML i CSS. Zrealizowane widoki obejmują: kreator pizzy (strefa klienta), historię zamówień (panel klienta) oraz kreator promocji (panel administracyjny). Każdy z nich ściśle odwzorowuje przyjęty motyw kolorystyczny (pomarańczowy \#F43B00, biały, czarny) oraz typografię opartą na kroju Inter.
+\vspace{5pt}
+
+Pliki projektu zostały zorganizowane zgodnie z zasadą, że każdy widok stanowi osobny folder zawierający dedykowany plik HTML oraz odpowiadające mu arkusze stylów. Wspólne elementy nawigacji i stopki wydzielono do folderu \texttt{shared}, z którego korzystają wszystkie widoki. Struktura katalogów przedstawia się następująco:
+
+\begin{lstlisting}
+Implementacja/
+|-- shared/
+|   |-- header-footer.css
+|   `-- header-footer-mobile.css
+|-- kreator-pizzy/
+|   |-- assets/
+|   |-- kreator-pizzy.html
+|   |-- kreator-pizzy.css
+|   |-- kreator-pizzy-mobile.css
+|   `-- kreator-pizzy.js
+|-- hisotria-zamowien/
+|   |-- assets/
+|   |-- historia-zamowien.html
+|   |-- historia-zamowien.css
+|   |-- historia-zamowien-mobile.css
+|   `-- historia-zamowien.js
+`-- kreator-promocji/
+    |-- assets/
+    |-- css/
+    |   |-- kreator-promocji.css
+    |   `-- kreator-promocji-mobile.css
+    |-- js/
+    |   `-- kreator-promocji.js
+    `-- kreator-promocji.html
+\end{lstlisting}
+\vspace{5pt}
+
+Wspólne elementy — pasek nawigacji oraz stopka — zostały wydzielone do osobnych plików \texttt{header-footer.css} oraz \texttt{header-footer-mobile.css}, co zapewnia spójność wizualną pomiędzy wszystkimi widokami. Responsywność osiągnięto poprzez zastosowanie klas \texttt{desktop-only} i \texttt{mobile-only} sterujących widocznością elementów w zależności od rozdzielczości ekranu. Na urządzeniach mobilnych poziome menu nawigacyjne zostaje zastąpione przyciskiem hamburgera, a rozbudowane tabele danych są przebudowywane do czytelnego układu kart — bez użycia zewnętrznych frameworków CSS.
+
+\vspace{10pt}
+\textbf{Kreator pizzy}
+\vspace{5pt}
+
+Kreator pizzy to czterokrokowy formularz prowadzący użytkownika przez kolejne etapy konfiguracji zamówienia. W wersji desktopowej nawigacja między krokami odbywa się za pomocą poziomego paska zakładek, natomiast w wersji mobilnej zastąpiono go pionowym stepperem wyświetlanym u góry ekranu. Każdy widok opatrzono stałym paskiem podsumowania „TWOJA PIZZA", który na bieżąco aktualizuje aktualną cenę kompozycji. Krok wyboru rozmiaru prezentuje trzy warianty (mała 25\,cm – 6 slotów, średnia 32\,cm – 9 slotów, duża 40\,cm – 12 slotów) w postaci interaktywnych kart. Krok wyboru sosu i sera wyświetla opcje w dwukolumnowym układzie, z wyraźnym zaznaczeniem pozycji domyślnych wliczonych w cenę. Krok dodatków zawiera pogrupowaną listę składników (mięso, warzywa, inne) z kontrolkami ilości (x1, x2, x3) oraz przełącznik trybu „pół na pół", który dzieli ekran na dwa niezależne panele selekcji. Ostatni krok to wizualne podsumowanie z rozbiciem kosztów i przyciskiem dodania do koszyka.
+
+\clearpage
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.67\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/HTML/fig_041.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.25\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/HTML/fig_042.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    \caption{Implementacja HTML/CSS – kreator pizzy}
+\end{figure}
+\newpage
+
+\vspace{10pt}
+\textbf{Historia zamówień}
+\vspace{5pt}
+
+Widok historii zamówień stanowi część panelu klienta „Moje konto". W wersji desktopowej interfejs podzielony jest na dwie strefy: po lewej stronie umieszczono stały boczny panel nawigacyjny z odnośnikami do zakładek „Dane osobowe", „Historia zamówień" oraz „Zwrot zamówienia", a po prawej stronie właściwą przestrzeń roboczą. Zamówienia prezentowane są w przejrzystej tabeli zawierającej kolumny: numer zamówienia, datę, status realizacji, typ dostawy oraz kwotę. W wersji mobilnej sidebar zostaje zastąpiony poziomym paskiem zakładek umieszczonym bezpośrednio pod nagłówkiem „MOJE KONTO", a tabela danych przebudowywana jest do układu kart, które użytkownik może wygodnie przewijać z góry na dół jednym palcem.
+
+\clearpage
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.67\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/HTML/fig_043.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.25\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/HTML/fig_044.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    \caption{Implementacja HTML/CSS – historia zamówień}
+\end{figure}
+\newpage
+
+\vspace{10pt}
+\textbf{Kreator promocji}
+\vspace{5pt}
+
+Kreator promocji jest częścią panelu administracyjnego back-office. Układ strony oparty jest na stałym bocznym sidebarze zawierającym pełną nawigację po modułach systemu (Dashboard, Menu, Zamówienia, Promocje, Zwroty, Klienci, Pracownicy). Główna przestrzeń robocza prezentuje tabelę wszystkich zdefiniowanych promocji z kolumnami: ID, nazwa, kod rabatowy, typ (procentowy lub kwotowy), wartość, okres ważności, liczba użyć oraz status aktywności. Nad tabelą zaimplementowano wyszukiwarkę filtrującą rekordy po nazwie lub kodzie, a pod nią pasek paginacji z wyborem liczby wyników na stronie. Po kliknięciu przycisku „Nowa promocja" nad tabelą rozwija się formularz umożliwiający skonfigurowanie wszystkich parametrów promocji: nazwy, kodu, typu, wartości procentowej lub kwotowej, minimalnej wartości zamówienia, limitu użyć, dat ważności oraz flagi aktywności. W wersji mobilnej sidebar chowa się za przyciskiem hamburgera, tabela zastępowana jest układem kart, a formularz nowej promocji przyjmuje uproszczoną, jednokolumnową postać dopasowaną do wąskiego ekranu.
+
+\clearpage
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.67\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/HTML/fig_045.png}
+        \caption{Wersja desktopowa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.25\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/HTML/fig_046.png}
+        \caption{Wersja mobilna}
+    \end{subfigure}
+    \caption{Implementacja HTML/CSS – kreator promocji}
+\end{figure}
+\newpage
+
 \chapter{Podsumowanie}
 
-
-Zaprezentowana w niniejszym rozdziale warstwa użytkowa systemu „Wito’s” dowodzi, że zaprojektowany interfejs graficzny w pełni i z sukcesem realizuje wszystkie początkowe założenia funkcjonalne oraz biznesowe projektu. Architektura interfejsu została logicznie podzielona na dwie zintegrowane ze sobą strefy: front-end dedykowany klientom restauracji oraz kompleksowy back-office przeznaczony dla personelu zarządzającego.
+Zrealizowany projekt systemu „Wito’s” potwierdza, że zaprojektowany interfejs graficzny w pełni realizuje wszystkie założenia funkcjonalne i biznesowe przyjęte na początku prac. Architektura interfejsu została logicznie podzielona na dwie zintegrowane ze sobą strefy: front-end dedykowany klientom restauracji oraz kompleksowy back-office przeznaczony dla personelu zarządzającego.
 \vspace{5pt}
 
-Z perspektywy klienta końcowego, aplikacja dostarcza nowoczesnych i intuicyjnych narzędzi, które maksymalnie upraszczają proces zakupowy. Przejrzyste menu, błyskawiczny proces finalizacji zamówienia w koszyku oraz rozbudowany, interaktywny „Kreator pizzy” znacząco podnoszą jakość doświadczeń użytkownika (UX). Dodatkowo, osobisty portal „Moje konto” buduje zaufanie do marki, oddając w ręce klienta pełną kontrolę nad jego danymi, historią transakcji oraz procesem ewentualnych reklamacji.
+Z perspektywy klienta końcowego aplikacja dostarcza nowoczesnych i intuicyjnych narzędzi, które maksymalnie upraszczają proces zakupowy. Przejrzyste menu, błyskawiczny proces finalizacji zamówienia w koszyku oraz rozbudowany, interaktywny „Kreator pizzy” znacząco podnoszą jakość doświadczeń użytkownika (UX). Osobisty portal „Moje konto” oddaje w ręce klienta pełną kontrolę nad jego danymi, historią transakcji oraz procesem ewentualnych reklamacji.
 \vspace{5pt}
 
-Z punktu widzenia obsługi lokalu, wdrożone moduły administracyjne – obejmujące główny pulpit zarządzania asortymentem, cyfrowe stanowisko kuchni oraz mobilny panel dostawcy – całkowicie eliminują potrzebę stosowania tradycyjnych, podatnych na błędy papierowych rozwiązań. Pełna cyfryzacja obiegu informacji gwarantuje natychmiastową synchronizację danych w czasie rzeczywistym, co bezpośrednio przekłada się na krótszy czas realizacji zamówień, optymalizację logistyki i mniejszą liczbę pomyłek.
+Z punktu widzenia obsługi lokalu wdrożone moduły administracyjne (obejmujące główny pulpit zarządzania asortymentem, cyfrowe stanowisko kuchni oraz mobilny panel dostawcy) eliminują potrzebę stosowania tradycyjnych, podatnych na błędy papierowych rozwiązań. Pełna cyfryzacja obiegu informacji przekłada się na krótszy czas realizacji zamówień, optymalizację logistyki i mniejszą liczbę pomyłek.
 \vspace{5pt}
 
-Warto również podkreślić innowacyjne podejście metodyczne, zastosowane podczas samej fazy prototypowania interfejsu. W celu zoptymalizowania czasu pracy nad warstwą wizualną, wykorzystano zaawansowane narzędzia ekosystemu Figma, w tym funkcje oparte na sztucznej inteligencji, takie jak narzędzie Figma Make (Make Designs). Zastosowanie tego rozwiązania pozwoliło na drastyczne przyspieszenie procesu generowania powtarzalnych widoków, ustandaryzowanych komponentów interfejsu oraz makiet strukturalnych (wireframes). Automatyzacja rutynowych zadań projektowych pozwoliła przenieść ciężar prac analitycznych na dopracowanie skomplikowanej logiki biznesowej, takiej jak ścieżka personalizacji w kreatorze produktu czy ergonomia paneli administracyjnych.
+W procesie projektowania warstwy wizualnej wykorzystano dwa narzędzia oparte na sztucznej inteligencji. Narzędzie \textbf{Figma Make} posłużyło do przyspieszenia generowania powtarzalnych widoków oraz ustandaryzowanych komponentów interfejsu, takich jak nawigacja, przyciski czy karty produktów. Grafiki produktowe (zdjęcia pizz i pozostałe ilustracje) zostały wygenerowane za pomocą \textbf{Gemini Pro}. Oba narzędzia dostarczały materiału wyjściowego, który następnie był ręcznie weryfikowany i dostosowywany do przyjętej palety barw oraz wymagań projektu.
 \vspace{5pt}
 
-Kluczowym osiągnięciem zrealizowanego interfejsu jest również rygorystyczna implementacja standardów Responsive Web Design (RWD). Konsekwentna adaptacja każdego z opisywanych widoków do specyfiki ekranów dotykowych udowadnia, że system „Wito’s” jest rozwiązaniem wysoce elastycznym i gotowym do bezproblemowego działania na każdym urządzeniu - począwszy od domowego komputera klienta, aż po smartfon kuriera znajdującego się w trasie.
+Kluczowym osiągnięciem projektu jest również implementacja trzech wybranych widoków w postaci funkcjonalnych stron internetowych napisanych w czystym HTML i CSS. Konsekwentna adaptacja każdego widoku do specyfiki ekranów mobilnych, bez użycia zewnętrznych frameworków, potwierdza, że system „Wito’s” działa poprawnie na każdym urządzeniu, od komputera klienta po smartfon kuriera w trasie.
 

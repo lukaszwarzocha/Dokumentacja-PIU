@@ -17,5 +17,6 @@
 \contentsline {section}{\numberline {4.2}Konfigurator produktu - Kreator Pizzy}{22}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Panel klienta}{27}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Panel admina}{32}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Podsumowanie}{45}{chapter.5}%
-\contentsline {section}{\textbf {Spis rysunków}}{46}{section*.30}%
+\contentsline {chapter}{\numberline {5}Implementacja widoków}{45}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Podsumowanie}{52}{chapter.6}%
+\contentsline {section}{\textbf {Spis rysunków}}{53}{section*.33}%
