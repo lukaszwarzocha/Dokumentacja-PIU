@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {2.2}Zakres funkcjonalności}{7}{section.2.2}%
 \contentsline {chapter}{\numberline {3}Opis struktury projektu}{9}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Wykorzystanie narzędzia AI}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Narzedzie projektowe - Figma}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Narzędzie projektowe - Figma}{10}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Motyw kolorystyczny, typografia i komponenty}{12}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Definicja ról użytkowników}{15}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Funkcjonalności systemowe}{15}{section.3.5}%
