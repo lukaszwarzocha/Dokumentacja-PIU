@@ -7,11 +7,12 @@
 \contentsline {section}{\numberline {3.1}Wykorzystanie narzędzia AI}{9}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Narzędzie projektowe - Figma}{10}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Motyw kolorystyczny, typografia i komponenty}{12}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Definicja ról użytkowników}{15}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Funkcjonalności systemowe}{15}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Logika przepływu użytkownika}{15}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Specyfika interfejsu w wersji desktopowej}{16}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Adaptacja widoku dla urządzeń mobilnych}{16}{section.3.8}%
+\contentsline {section}{\numberline {3.4}Wykorzystane zasoby graficzne}{15}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Definicja ról użytkowników}{15}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Funkcjonalności systemowe}{15}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Logika przepływu użytkownika}{16}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Specyfika interfejsu w wersji desktopowej}{16}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Adaptacja widoku dla urządzeń mobilnych}{16}{section.3.9}%
 \contentsline {chapter}{\numberline {4}Prezentacja warstwy użytkowej projektu}{17}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Moduł główny, menu produktowe oraz koszyk}{17}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Konfigurator produktu - Kreator Pizzy}{22}{section.4.2}%
